@@ -87,7 +87,7 @@ defmodule PhxToolsWeb.CoreComponents do
         <Heroicons.exclamation_circle :if={@kind == :error} mini class="h-4 w-4" />
         <%= @title %>
       </p>
-      <p class="mt-2 text-[0.8125rem] leading-5"><%= msg %></p>
+      <p class="mt-2 text-1xs leading-5"><%= msg %></p>
       <button
         :if={@close}
         type="button"
