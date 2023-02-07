@@ -47,6 +47,10 @@ module.exports = {
         '30pct': '30%',
         '10pct': '10%',
       },
+      padding: {
+        '3pct': '3%',
+        '30pct': '30%',
+      },
     },
   },
   plugins: [

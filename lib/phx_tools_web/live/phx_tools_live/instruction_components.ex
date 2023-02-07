@@ -21,7 +21,7 @@ defmodule PhxToolsWeb.InstructionComponents do
             <%= render_slot(@header) %>
           </h1>
           <div class="h-full w-full border-[4px] shadow-indigo-925 shadow-md border-indigo-935 rounded-md lg:mx-2pct pb-2">
-            <div class="text-start px-[3%] lg:text-xl md:text-lg sm:text-1sm">
+            <div class="text-start px-3pct lg:text-xl md:text-lg sm:text-1sm">
               <h1 class="text-white lg:mt-5 md:mt-5 sm:mt-4">
                 1. Press the button to copy this command to your clipboard:
               </h1>
