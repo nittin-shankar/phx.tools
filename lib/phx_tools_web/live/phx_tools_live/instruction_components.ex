@@ -16,16 +16,16 @@ defmodule PhxToolsWeb.InstructionComponents do
     ~H"""
     <div class="solved-height font-normal">
       <div class="w-full h-full flex items-center justify-center">
-        <div class="block lg:mt-[3%] ">
-          <h1 class="text-white text-center lg:text-2xl md:text-1xl sm:text-xl lg:mb-[5%] md:mb-[2%] sm:mb-[2%]">
+        <div class="block lg:mt-3pct ">
+          <h1 class="text-white text-center lg:text-2xl md:text-1xl sm:text-xl lg:mb-5pct md:mb-2pct sm:mb-2pct">
             <%= render_slot(@header) %>
           </h1>
-          <div class="h-full w-full border-[4px] shadow-indigo-925 shadow-md border-indigo-935 rounded-md lg:mx-[2%] pb-2">
+          <div class="h-full w-full border-[4px] shadow-indigo-925 shadow-md border-indigo-935 rounded-md lg:mx-2pct pb-2">
             <div class="text-start px-[3%] lg:text-xl md:text-lg sm:text-1sm">
               <h1 class="text-white lg:mt-5 md:mt-5 sm:mt-4">
                 1. Press the button to copy this command to your clipboard:
               </h1>
-              <div class="flex items-center justify-evenly border-[1px] border-indigo-450 py-1 mx-[4%] lg:mt-6 md:mt-5 sm:mt-4 rounded-lg">
+              <div class="flex items-center justify-evenly border-[1px] border-indigo-450 py-1 mx-4pct lg:mt-6 md:mt-5 sm:mt-4 rounded-lg">
                 <h1 id="tool-installation" class="text-white  text-base font-thin">
                   <%= render_slot(@installation_command) %>
                 </h1>
